@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html
+        lang="en"
+        th:replace="~{base :: parent(~{::#content},~{::title},~{::script})}"
+>
+<head>
+  <title>Home page</title>
+</head>
+<body>
+  <div id="content" class="">
+    <!-- Banner Section -->
+    <section class="  bg-gradient-to-r to-purple-600 from-indigo-700 text-white py-32 animate__animated animate__fadeInDown rounded-b-3xl shadow-2xl shadow-blue-600">
+      <div class="container mx-auto text-center">
+        <h2 class="text-5xl font-bold mb-6">Welcome to <span class="text-green-500">Contact<span class="text-orange-500">Sphere</span></span></h2>
+        <p class="text-xl mb-8 max-w-2xl mx-auto">Manage all your contacts effortlessly and securely in one place. ContactSphere empowers you to streamline communication, keep your network organized, and enhance productivity like never before.
+
+          With advanced features.</p>
+        <a data-th-href="@{'/register'}"class="bg-white text-blue-600 px-8 py-4 rounded-full font-semibold hover:bg-gray-100 transition duration-300 transform hover:scale-105 shadow-2xl">Get Started</a>
+      </div>
+    </section>
+  
+    <!-- Features Section -->
+    <section class="dark:bg-gray-900 py-24 ">
+      <div class="container mx-auto text-center">
+        <h2 class="dark:text-white text-4xl font-bold mb-16 animate__animated animate__fadeInUp">Features</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12 px-8">
+          <div class="p-8 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-105 dark:bg-gray-800">
+            <i class="fas fa-address-book text-blue-600 text-5xl mb-6"></i>
+            <h3 class="text-2xl font-semibold mb-4">Easy Contact Management</h3>
+            <p class="text-gray-600 dark:text-gray-300">Add, edit, and organize your contacts in a sleek, user-friendly interface designed for efficiency.</p>
+          </div>
+          <div class="p-8 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-105 dark:bg-gray-800">
+            <i class="fas fa-lock text-blue-600 text-5xl mb-6"></i>
+            <h3 class="text-2xl font-semibold mb-4">Secure Storage</h3>
+            <p class="text-gray-600 dark:text-gray-300">Your data is protected with military-grade encryption and advanced security protocols.</p>
+          </div>
+          <div class="p-8 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-105 dark:bg-gray-800">
+            <i class="fas fa-globe text-blue-600 text-5xl mb-6"></i>
+            <h3 class="text-2xl font-semibold mb-4">24/7 Access</h3>
+            <p class="text-gray-600 dark:text-gray-300">Access your contacts anytime, anywhere, from any device with seamless synchronization.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- Call to Action Section -->
+    <section class="bg-gradient-to-r to-purple-600 from-indigo-700 text-white py-32 rounded-t-3xl shadow-2xl animate__animated animate__fadeInUp">
+      <div class="container mx-auto text-center">
+        <h2 class="text-4xl font-bold mb-6">Ready to Manage Your Contacts?</h2>
+        <p class="text-xl mb-8 max-w-2xl mx-auto">Sign up today and experience the easiest way to manage your contacts. Join thousands of professionals who trust Contact Manager.</p>
+        <a data-th-href="@{'/register'}" class="bg-white text-blue-600 px-8 py-4 rounded-full font-semibold hover:bg-gray-100 transition duration-300 transform hover:scale-105 shadow-lg">Create an Account</a>
+      </div>
+    </section>
+  
+    <!-- Testimonials Section -->
+    <section class="dark:bg-gray-900 py-24 bg-gray-50">
+      <div class="container mx-auto text-center">
+        <h2 class="text-4xl font-bold mb-16 animate__animated animate__fadeInUp">What Our Users Say</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 px-8">
+          <div class="p-8 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-105 dark:bg-gray-800">
+            <p class="text-gray-600 dark:text-gray-300 italic text-lg">"ContactSphere has revolutionized the way I organize my contacts. It's fast, secure, and incredibly intuitive!"</p>
+            <h4 class="text-xl font-semibold mt-6">- John Doe</h4>
+            <p class="text-gray-500 dark:text-gray-400">CEO, Tech Solutions Inc.</p>
+          </div>
+          <div class="p-8 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-105 dark:bg-gray-800">
+            <p class="text-gray-600 dark:text-gray-300 italic text-lg">"A game-changer for businesses! The 24/7 access and secure storage options are unmatched."</p>
+            <h4 class="text-xl font-semibold mt-6">- Jane Smith</h4>
+            <p class="text-gray-500 dark:text-gray-400">Marketing Director, Innovate Corp.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- Contact Section -->
+    <section class="bg-gradient-to-r to-purple-600 from-indigo-700 text-white py-32 rounded-b-3xl shadow-2xl animate__animated animate__fadeInUp">
+  <div class="container mx-auto text-center">
+    <h2 class="text-4xl font-bold mb-4">Get in Touch</h2>
+    <p class="max-w-2xl mx-auto text-lg opacity-90">
+      We'd love to hear from you! Reach out via our email or phone below.
+    </p>
+  </div>
+</section>
+
+  
+    <!-- Footer Section -->
+    <footer class="dark:bg-gray-800 bg-white text-black py-12">
+      <div class="container mx-auto text-center">
+        <p class="text-lg">&copy; 2025 ContactSphere. All rights reserved.</p>
+        <div class="mt-4">
+          <a href="#" class="text-blue-400 hover:text-blue-600 mx-3">Facebook</a>
+          <a href="#" class="text-blue-400 hover:text-blue-600 mx-3">Twitter</a>
+          <a href="#" class="text-blue-400 hover:text-blue-600 mx-3">Instagram</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+<script>
+  console.log("Home page");
+</script>
+</body>
+</html>

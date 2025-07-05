@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  th:replace="~{base :: parent(~{::#content},~{::title},~{::script})}"
+>
+  <head>
+    <title>About Page</title>
+  </head>
+  <body>
+    <div id="content">
+      <!-- Header Section -->
+      <header class="bg-gradient-to-r from-purple-600 via-blue-500 to-indigo-600 py-20 animate__animated animate__fadeInDown relative overflow-hidden">
+        <div class="container mx-auto text-center px-4 relative z-10">
+          <h1 class="text-4xl md:text-6xl font-bold text-white mb-4 transform hover:scale-105 transition-transform duration-300">
+            About Us
+          </h1>
+          <p class="text-lg md:text-xl text-gray-200 font-light max-w-2xl mx-auto">
+            Learn more about the team behind Smart Contact Manager
+          </p>
+        </div>
+        <div class="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent z-0"></div>
+      </header>
+    
+      <!-- Our Story Section -->
+      <section class="container mx-auto px-6 py-20">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-72 items-center">
+          <div class="animate__animated animate__fadeInLeft space-y-6">
+            <h2 class="text-4xl md:text-5xl font-bold text-gray-800 dark:text-white bg-clip-text">
+              Our Story
+            </h2>
+            <div class="space-y-4 text-gray-600 dark:text-gray-300">
+              <p class="text-lg leading-relaxed">
+                ContactSphere was founded in 2025 with a simple mission: to make contact management effortless and secure. 
+                Our team of passionate developers and designers came together to create a tool that simplifies how individuals and 
+                businesses organize their contacts.
+              </p>
+              <p class="text-lg leading-relaxed">
+                Today, we serve thousands of users worldwide, helping them stay connected and productive through innovative solutions 
+                that prioritize security and user experience.
+              </p>
+            </div>
+          </div>
+          <div class="animate__animated animate__fadeInRight relative group">
+            <div class="relative rounded-2xl overflow-hidden transform group-hover:scale-105 transition-transform duration-500">
+              <img  src="/images/logo1.png" alt="Our Story" 
+                   class="w-96 h-auto object-cover rounded-2xl ">
+              <div class="absolute inset-0 bg-gradient-to-t  via-transparent to-transparent"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <!-- Our Mission Section -->
+      <section class="dark:bg-gradient-to-br dark:from-gray-900 dark:to-gray-800 bg-gray-50 py-24">
+        <div class="container mx-auto px-6">
+          <div class="text-center mb-16 animate__animated animate__fadeInUp">
+            <h2 class="text-4xl md:text-5xl font-bold text-gray-800 dark:text-white mb-4">
+              Our Mission
+            </h2>
+            <p class="text-xl text-gray-600 dark:text-gray-300">
+              What drives us every day
+            </p>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Mission 1 -->
+            <div class="dark:bg-gray-800 bg-white p-8 rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 group transform hover:-translate-y-2 animate__animated animate__fadeInUp">
+              <div class="text-purple-600 text-5xl mb-6 transition-colors duration-300 group-hover:text-purple-500">
+                <i class="fas fa-lightbulb"></i>
+              </div>
+              <h3 class="text-2xl font-bold text-gray-800 dark:text-white mb-4">
+                Innovation
+              </h3>
+              <p class="text-gray-600 dark:text-gray-300 leading-relaxed">
+                We constantly innovate to bring you cutting-edge tools for modern contact management.
+              </p>
+            </div>
+    
+            <!-- Mission 2 -->
+            <div class="dark:bg-gray-800 bg-white p-8 rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 group transform hover:-translate-y-2 animate__animated animate__fadeInUp animate__delay-1s">
+              <div class="text-blue-500 text-5xl mb-6 transition-colors duration-300 group-hover:text-blue-400">
+                <i class="fas fa-shield-alt"></i>
+              </div>
+              <h3 class="text-2xl font-bold text-gray-800 dark:text-white mb-4">
+                Security
+              </h3>
+              <p class="text-gray-600 dark:text-gray-300 leading-relaxed">
+                Military-grade encryption and real-time monitoring protect your valuable data.
+              </p>
+            </div>
+    
+            <!-- Mission 3 -->
+            <div class="dark:bg-gray-800 bg-white p-8 rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 group transform hover:-translate-y-2 animate__animated animate__fadeInUp animate__delay-2s">
+              <div class="text-green-500 text-5xl mb-6 transition-colors duration-300 group-hover:text-green-400">
+                <i class="fas fa-users"></i>
+              </div>
+              <h3 class="text-2xl font-bold text-gray-800 dark:text-white mb-4">
+                User-Centric
+              </h3>
+              <p class="text-gray-600 dark:text-gray-300 leading-relaxed">
+                Designed with intuitive workflows that adapt to your unique needs.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <!-- Our Team Section -->
+      <section class="container mx-auto px-6 py-24">
+        <div class="text-center mb-16 animate__animated animate__fadeInUp">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-800 dark:text-white mb-4">
+            Meet Our Team
+          </h2>
+          <p class="text-xl text-gray-600 dark:text-gray-300">
+            The brilliant minds powering your contact management
+          </p>
+        </div>
+        <div class="flex flex-wrap justify-center gap-10">
+          <!-- Team Member 1 -->
+          <div class="dark:bg-gray-800 bg-white p-8 rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 transform hover:-translate-y-2 animate__animated animate__fadeInUp w-80">
+            <div class="relative group">
+              <img src="/images/Tejas.png" alt="Team Member" 
+                   class="w-48 h-48 rounded-full mx-auto object-cover border-4 border-purple-500/20 group-hover:border-purple-500 transition-all duration-500">
+            </div>
+            <h3 class="mt-6 text-2xl font-bold text-gray-800 dark:text-white">
+              Tejas Parkhe
+            </h3>
+            <p class="text-purple-500 dark:text-purple-400 font-medium mt-2">
+              Founder & Visionary
+            </p>
+            <p class="mt-4 text-gray-600 dark:text-gray-300 leading-relaxed">
+              Architect of seamless user experiences and innovative solutions.
+            </p>
+          </div>
+        </div>
+      </section>
+    
+      <!-- Call to Action Section -->
+      <section class="bg-gradient-to-r from-purple-600 to-blue-500 py-24 relative overflow-hidden">
+        <div class="container mx-auto text-center px-4 relative z-10">
+          <div class="max-w-3xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">
+              Transform Your Contact Management
+            </h2>
+            <p class="text-xl text-gray-200 mb-8">
+              Join thousands of professionals revolutionizing their workflow
+            </p>
+            <a href="#" class="inline-block bg-white text-purple-600 px-10 py-4 rounded-full font-bold hover:bg-purple-50 transition-all duration-500 transform hover:scale-105 shadow-lg hover:shadow-xl">
+              Start Free Trial →
+            </a>
+          </div>
+        </div>
+        <div class="absolute inset-0 bg-gradient-to-r from-black/10 to-transparent"></div>
+      </section>
+    
+      <!-- Footer Section -->
+      <footer class="bg-gray-800 py-12">
+        <div class="container mx-auto text-center">
+          <div class="animate__animated animate__fadeInUp">
+            <p class="text-gray-400 font-light">
+              © 2025 ContactSphere All rights reserved.
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script>
+      console.log("about page");
+    </script>
+    <script>
+      console.log("second about page script");
+    </script>
+  </body>
+</html>
