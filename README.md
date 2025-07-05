@@ -30,15 +30,47 @@ A simple and elegant **Contact Management Web Application** built with **Spring 
 
 ## 🖼️ Screenshots
 
-![image alt](https://github.com/TejasParkhe-47/ContactSphere2/blob/main/scmshots1.png?raw=true)
-![image alt](https://github.com/TejasParkhe-47/ContactSphere2/blob/main/scmpic2.png?raw=true)
-![image alt](https://github.com/TejasParkhe-47/ContactSphere2/blob/main/scmpic3.png?raw=true)
-![image alt](https://github.com/TejasParkhe-47/ContactSphere2/blob/main/scmpic4.png?raw=true)
-![image alt](https://github.com/TejasParkhe-47/ContactSphere2/blob/main/scmpic5.png?raw=true)
-![image alt](https://github.com/TejasParkhe-47/ContactSphere2/blob/main/scmpic6.png?raw=true)
+![image alt](https://github.com/TejasParkhe-47/contactsphere3/blob/2bffd914b18f079566bfe7a802b9914622fa3091/scmshots1.png)
+![image alt](https://github.com/TejasParkhe-47/contactsphere3/blob/2bffd914b18f079566bfe7a802b9914622fa3091/scmpic2.png)
+![image alt](https://github.com/TejasParkhe-47/contactsphere3/blob/2bffd914b18f079566bfe7a802b9914622fa3091/scmpic3.png)
+![image alt](https://github.com/TejasParkhe-47/contactsphere3/blob/2bffd914b18f079566bfe7a802b9914622fa3091/scmpic4.png)
+![image alt](https://github.com/TejasParkhe-47/contactsphere3/blob/2bffd914b18f079566bfe7a802b9914622fa3091/scmpic5.png)
+![image alt](https://github.com/TejasParkhe-47/contactsphere3/blob/2bffd914b18f079566bfe7a802b9914622fa3091/scmpic6.png)
 
 
 ---
 
 ## 📂 Project Structure
+├── src/
+│ ├── main/
+│ │ ├── java/
+│ │ │ └── com/
+│ │ │ └── yourpackage/
+│ │ │ ├── controller/
+│ │ │ ├── model/
+│ │ │ ├── repository/
+│ │ │ └── service/
+│ │ │
+│ │ └── resources/
+│ │ ├── static/
+│ │ │ ├── css/
+│ │ │ └── js/
+│ │ ├── templates/
+│ │ │ ├── fragments/
+│ │ │ ├── contacts/
+│ │ │ └── home.html
+│ │ └── application.properties
+│ │
+│ └── test/
+│ └── java/
+│ └── com/
+│ └── yourpackage/
+│ └── ... (unit tests)
+│
+├── .gitignore
+├── pom.xml
+├── tailwind.config.js
+├── package.json
+├── package-lock.json
+└── README.md
 
