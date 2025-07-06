@@ -1,17 +1,13 @@
 ### Spring Boot config ###
 src/main/resources/application.properties
 src/main/resources/application-dev.properties
+
 ### Java / Maven ###
 target/
 *.class
 *.jar
 *.war
 *.ear
-
-### Maven Wrapper ###
-.mvn/
-mvnw
-mvnw.cmd
 
 ### IDEs ###
 .idea/
@@ -33,9 +29,6 @@ Thumbs.db
 node_modules/
 dist/
 build/
-package-lock.json
-yarn.lock
 
 ### Environment Files ###
 .env
-
